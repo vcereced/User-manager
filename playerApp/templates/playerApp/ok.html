@@ -1,0 +1,16 @@
+<html>
+<head>
+    <title>Inicio</title>
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'playerApp/css/displayer.css' %}">
+    <link rel="stylesheet" href="{% static 'playerApp/css/styles_form.css' %}">
+</head>
+<body>
+
+    <h1>añadido correctamente el usuario.</h1>
+
+    <!-- Botón para ir a otra página -->
+    <a href="{% url 'add_default' %}" class="button">back</a>
+
+</body>
+</html>
