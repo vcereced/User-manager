@@ -1,7 +1,7 @@
-git clone remote repository folder \n
-cd folder \n
-create virtual enviroment of python\n
-source activate\n
-pip install -r requirements.txt\n
-cd to main root of proyect\n
-python manage.py runserver\n
+git clone <remote repository url>  
+cd folder  
+python -m venv <env name>  
+source <env name>/bin/activate  # En Windows usa <env name>\Scripts\activate  
+pip install -r requirements.txt  
+cd name project  
+python manage.py runserver  
